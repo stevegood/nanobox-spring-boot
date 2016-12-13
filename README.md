@@ -2,10 +2,15 @@
 
 Clone this repo
 
-    git clone https://github.com/stevegood/nanobox-spring-boot
-    
+```bash
+git clone https://github.com/stevegood/nanobox-spring-boot
+```
+ 
 Start the application
-
-    nanobox run './gradlew bootRun'
+    
+```bash
+cd nanobox-spring-boot
+nanobox run './gradlew bootRun'
+```
     
 Visit the application at the IP / host configured for your app on port 8080.
